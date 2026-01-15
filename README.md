@@ -6,13 +6,22 @@ a.	Quick setup instructions
 
 
 
+
+Tech Stack            |                    | 
+--------------------- | ------------------ | 
+Programming language  |   Python           |  
+LLM provider          |   Azure Open AI    |  
+Vector database       |   Qdrant           |  
+Orchestration Frwk    |   Langraph         |   
+Architecture          |   Agentic Sequence | 
+
 Tech Stack used:
 *****************
-•	Programming language - Python 
+•	 -  
 
-•	LLM provider - Azure Open AI 
+•	 -  
 
-•	Vector database - Qdrant Vector database
+•	 - Qdrant Vector database
 
 •	Orchestration Framework - Langgraph Agentic workflow
 
