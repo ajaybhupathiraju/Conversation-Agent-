@@ -97,7 +97,7 @@ LLM provider          |   Azure Open AI    |
 Vector database       |   Qdrant           |  
 Orchestration Frwk    |   RAG and Langraph |   
 Architecture          |   Agentic Sequence | 
-
+Docker Desktop        |   Qdrant db image  |
 
 ## Results
 
