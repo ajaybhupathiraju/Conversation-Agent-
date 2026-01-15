@@ -15,22 +15,10 @@ Vector database       |   Qdrant           |
 Orchestration Frwk    |   Langraph         |   
 Architecture          |   Agentic Sequence | 
 
-Tech Stack used:
-*****************
-•	 -  
-
-•	 -  
-
-•	 - Qdrant Vector database
-
-•	Orchestration Framework - Langgraph Agentic workflow
-
-•	Architecture - Agentic Sequence design pattern architecture used.
-
 Input :
 
 <img width="695" height="100" alt="image" src="https://github.com/user-attachments/assets/09198932-3256-4bcb-beab-c7b0aff27665" />
 
-Output :
+Agent Response :
 
 <img width="951" height="236" alt="image" src="https://github.com/user-attachments/assets/38fa93a6-fd34-4c42-aaee-7282e60b8c0d" />
