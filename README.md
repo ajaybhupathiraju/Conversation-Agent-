@@ -5,15 +5,7 @@ Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent util
 - [Quick setup instructions](#quick-setup-instructions)
 - [Architecture Overview](#architecture-overview)
 - [Productionize solution](#productionize-solution)
-- [Recommendations](#recommendations)
-- [Machine learning model](#machine-learning-model)
-- [Assumptions](#assumptions)
-- [Performance metrics](#performance-metrics)
-- [Loss function](#loss-function)
-- [Choosing a Model](#choosing-a-model)
-- [Training the Model](#training-the-model)
-- [Making Predictions](#making-predictions)
-- [Deployee model](#deployee-model)
+
 
 ## Quick setup instructions
 
@@ -31,8 +23,6 @@ Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent util
 The Sequential Design Pattern in LangGraph connects AI agents in a sequence order, One agent finishes its specific task and passes its work directly to the next agent. 
 This is used for simple tasks that must happen in a specific, step-by-step order.
 
-## productionize solution
-
 <img width="107" height="333" alt="image" src="https://github.com/user-attachments/assets/19dc95fc-3943-4dc0-aa2f-cb9202fd7125" />
 
 **_Planning Agent_** : The first node in the graph receives the user's input such as the study, drug, and query details and saves it directly into the graph's state.
@@ -44,6 +34,7 @@ This is used for simple tasks that must happen in a specific, step-by-step order
 2. It sends the user query and retrieved context to the LLM with specific instructions to generate a response.
 
 
+## productionize solution
 
 
 
