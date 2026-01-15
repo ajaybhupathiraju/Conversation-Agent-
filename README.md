@@ -5,6 +5,8 @@ Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent util
 - [Quick setup instructions](#quick-setup-instructions)
 - [Architecture Overview](#architecture-overview)
 - [Productionize solution](#productionize-solution)
+- [Tech Stack Used](#tech-stack-used)
+- [Results](#results)
 
 
 ## Quick setup instructions
@@ -40,14 +42,18 @@ This is used for simple tasks that must happen in a specific, step-by-step order
 
 
 
+## Tech Stack Used
 
-Tech Stack            |                    | 
+Modules               |                    | 
 --------------------- | ------------------ | 
 Programming language  |   Python           |  
 LLM provider          |   Azure Open AI    |  
 Vector database       |   Qdrant           |  
 Orchestration Frwk    |   RAG and Langraph |   
 Architecture          |   Agentic Sequence | 
+
+
+## Results
 
 Input :
 
