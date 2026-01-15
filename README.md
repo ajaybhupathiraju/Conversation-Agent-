@@ -12,7 +12,7 @@ Tech Stack            |                    |
 Programming language  |   Python           |  
 LLM provider          |   Azure Open AI    |  
 Vector database       |   Qdrant           |  
-Orchestration Frwk    |   Langraph         |   
+Orchestration Frwk    |   RAG and Langraph |   
 Architecture          |   Agentic Sequence | 
 
 Input :
