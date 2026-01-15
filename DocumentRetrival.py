@@ -76,11 +76,3 @@ class DocumentRetrieval:
             print(type(e))
             logger.error(f"Exception :{e}")
             return None
-        
-if __name__ == "__main__":
-    document_retrieval = DocumentRetrieval()
-    documents = document_retrieval.get_documents(study_name="CNIS793B12301", drug_name="NAB PACLITAXEL",query_text="Can you explain information aboutNAB PACLITAXEL?")
-    if documents is not None:
-       print(documents)
-    else:
-        print("No documents found")
