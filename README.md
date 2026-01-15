@@ -52,6 +52,7 @@ To achive scalability and reliability
 - State Persistence: Use Checkpoints to save a StateSnapshot of the graph at every step. This ensures the graph state is archived and can be recovered by backup nodes if a failure occurs.
 
 
+## RAG-LLM approach and decisions
 
 
 ## Tech Stack Used
