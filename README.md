@@ -5,6 +5,7 @@ Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent util
 - [Quick setup instructions](#quick-setup-instructions)
 - [Architecture Overview](#architecture-overview)
 - [Productionize solution](#productionize-solution)
+- [RAG-LLM approach and decisions](#rag-llm-approach-and-decisions)
 - [Tech Stack Used](#tech-stack-used)
 - [Results](#results)
 
