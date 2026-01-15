@@ -11,9 +11,14 @@ Output :
 
 
 Tech Stack used:
-•	Programming language - Python
-•	LLM provider - Azure Open AI
+•	Programming language - Python 
+
+•	LLM provider - Azure Open AI 
+
 •	Vector database - Qdrant Vector database
+
 •	Orchestration Framework - Langgraph Agentic workflow
+
 •	Architecture - Agentic Sequence design pattern architecture used.
+
 
