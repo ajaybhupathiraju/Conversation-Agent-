@@ -54,6 +54,13 @@ To achive scalability and reliability
 
 ## RAG-LLM approach and decisions
 
+Why choose RAG ?
+
+- The knowledge of an LLM is frozen at a specific training date. It does not know organization's internal data. Furthermore, retraining an LLM is both expensive and complex. By using RAG, we provide the LLM with the necessary context, allowing it to answer user queries based on the specific information we provide. 
+
+Why Choose Azure OpenAI over Open-Source LLMs?
+
+- Azure OpenAI is the preferred choice for organizations because it is highly regulated and provides enterprise-grade security integrations. While smaller, open-source models can be useful for niche tasks, they often face limitations regarding cost-efficiency at scale and lack robust security features.
 
 ## Tech Stack Used
 
