@@ -62,6 +62,10 @@ Why Choose Azure OpenAI over Open-Source LLMs?
 
 - Azure OpenAI is the preferred choice for organizations because it is highly regulated and provides enterprise-grade security integrations. While smaller, open-source models can be useful for niche tasks, they often face limitations regarding cost-efficiency at scale and lack robust security features.
 
+Why Choose Langraph insted of Langchain ?
+
+- While both can achieve the same goals, choose LangGraph over LangChain because workflow needs fine-grained control, memory (persistence), or complex coordination between multiple agents.
+
 ## Tech Stack Used
 
 Modules               |                    | 
