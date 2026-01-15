@@ -90,14 +90,14 @@ To achive scalability and reliability
 
 ## Tech Stack Used
 
-Modules               |                    | 
---------------------- | ------------------ | 
-Programming language  |   Python           |  
-LLM provider          |   Azure Open AI    |  
-Vector database       |   Qdrant           |  
-Orchestration Frwk    |   RAG and Langraph |   
-Architecture          |   Agentic Sequence | 
-Docker Desktop        |   Qdrant db image  |
+Modules               |                            | 
+--------------------- | -------------------------- | 
+Programming language  |   Python                   |  
+LLM provider          |   Azure Open AI            |  
+Vector database       |   Qdrant                   |  
+Orchestration Frwk    |   RAG and Langraph         |   
+Architecture          |   Agentic Sequence         | 
+Docker Desktop        |   Containerized Qdrant db  |
 
 ## Results
 
