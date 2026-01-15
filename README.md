@@ -1,7 +1,7 @@
 # Conversation-Agent- (Option 1: Chat With Your Docs)
 Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent utilizes a stateful, graph-based architecture to reason through complex user queries and provide contextually aware responses.
 
-a.	Quick setup instructions
+a.	**Quick setup instructions**
 
     - create venv -> uv add venv
     
@@ -13,6 +13,23 @@ a.	Quick setup instructions
 
     Note : .env file is required to run this project. It has been excluded for security reasons.
     
+b.	**Architecture Overview**
+The Sequential Design Pattern in LangGraph connects AI agents in a sequence order, One agent finishes its specific task and passes its work directly to the next agent. 
+This is used for simple tasks that must happen in a specific, step-by-step order.
+
+
+<img width="107" height="333" alt="image" src="https://github.com/user-attachments/assets/19dc95fc-3943-4dc0-aa2f-cb9202fd7125" />
+
+**_Planning Agent_** : The first node in the graph receives the user's input such as the study, drug, and query details and saves it directly into the graph's state.
+
+**_Safety Agent_** : The second node in the graph, which processes the output from the Planning Agent. It performs two key functions:
+
+1. It generates embeddings for the user input to retrieve and aggregate relevant records from the RAG system as context.
+
+2. It sends the user query and retrieved context to the LLM with specific instructions to generate a response.
+
+
+
 
 
 
