@@ -6,6 +6,8 @@ Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent util
 - [Architecture Overview](#architecture-overview)
 - [Productionize solution](#productionize-solution)
 - [RAG-LLM approach and decisions](#rag-llm-approach-and-decisions)
+- [Engineering standards](#engineering-standards)
+- [What i do differently with more time](#what-i-do-differently-with-more-time)
 - [Tech Stack Used](#tech-stack-used)
 - [Results](#results)
 
@@ -65,6 +67,14 @@ To achive scalability and reliability
 **_Q3) Why i choose Langraph insted of Langchain ?_**
 
 - While both can achieve the same goals, choose LangGraph over LangChain because workflow needs fine-grained control, memory (persistence), or complex coordination between multiple agents.
+
+
+## Engineering standards
+
+
+## What i do differently with more time
+
+
 
 ## Tech Stack Used
 
