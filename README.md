@@ -70,10 +70,17 @@ To achive scalability and reliability
 
 
 ## Engineering standards
+1. Sequential Design Pattern: The architecture follows a step-by-step workflow for agent execution.
 
+2. Loosely Coupled Agents: Each agent is independent, ensuring that changes to one do not negatively impact others.
+
+3. Clean Separation of Concerns: Responsibilities are clearly divided among specialized agents to improve maintainability and focus.
 
 ## What i do differently with more time
 
+1. Centralized Auth flow: Implement a unified token auth flow to eliminate redundancy and improve security across all services.
+
+2. MCP Integration: Convert agent workflows into Model Context Protocol (MCP) agents. This ensures modularity, allowing each agent to be reused independently across different projects in the future.
 
 
 ## Tech Stack Used
