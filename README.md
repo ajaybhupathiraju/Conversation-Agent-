@@ -7,6 +7,7 @@ Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent util
 - [Productionize solution](#productionize-solution)
 - [RAG-LLM approach and decisions](#rag-llm-approach-and-decisions)
 - [Engineering standards](#engineering-standards)
+- [AI tools in development process](#ai-tools-in-development-process)
 - [What i do differently with more time](#what-i-do-differently-with-more-time)
 - [Tech Stack Used](#tech-stack-used)
 - [Results](#results)
@@ -75,6 +76,10 @@ To achive scalability and reliability
 2. Loosely Coupled Agents: Each agent is independent, ensuring that changes to one do not negatively impact others.
 
 3. Clean Separation of Concerns: Responsibilities are clearly divided among specialized agents to improve maintainability and focus.
+
+
+## AI tools in development process
+- using cursor IDE
 
 ## What i do differently with more time
 
