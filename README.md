@@ -1,7 +1,21 @@
 # Conversation-Agent- (Option 1: Chat With Your Docs)
 Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent utilizes a stateful, graph-based architecture to reason through complex user queries and provide contextually aware responses.
 
-a.	**Quick setup instructions**
+## Table of Contents
+- [Quick setup instructions](#quick-setup-instructions)
+- [Architecture Overview](#architecture-overview)
+- [Productionize solution](#productionize-solution)
+- [Recommendations](#recommendations)
+- [Machine learning model](#machine-learning-model)
+- [Assumptions](#assumptions)
+- [Performance metrics](#performance-metrics)
+- [Loss function](#loss-function)
+- [Choosing a Model](#choosing-a-model)
+- [Training the Model](#training-the-model)
+- [Making Predictions](#making-predictions)
+- [Deployee model](#deployee-model)
+
+## Quick setup instructions
 
     - create venv -> uv add venv
     
@@ -13,10 +27,11 @@ a.	**Quick setup instructions**
 
     Note : .env file is required to run this project. It has been excluded for security reasons.
     
-b.	**Architecture Overview**
+## Architecture Overview
 The Sequential Design Pattern in LangGraph connects AI agents in a sequence order, One agent finishes its specific task and passes its work directly to the next agent. 
 This is used for simple tasks that must happen in a specific, step-by-step order.
 
+## productionize solution
 
 <img width="107" height="333" alt="image" src="https://github.com/user-attachments/assets/19dc95fc-3943-4dc0-aa2f-cb9202fd7125" />
 
