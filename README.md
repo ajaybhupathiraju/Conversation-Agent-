@@ -3,6 +3,17 @@ Conversation-Agent is runs on LangGraph-driven agentic workflow, this agent util
 
 a.	Quick setup instructions
 
+    - create venv -> uv add venv
+    
+    - activate venv -> .venv\scripts\activate
+    
+    - uv sync -> install dependencies
+    
+    - run python PlanningAgent.py
+
+    Note : .env file is required to run this project. It has been excluded for security reasons.
+    
+
 
 
 
