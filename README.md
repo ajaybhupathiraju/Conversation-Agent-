@@ -117,4 +117,17 @@ Agent Response :
 <img width="951" height="236" alt="image" src="https://github.com/user-attachments/assets/38fa93a6-fd34-4c42-aaee-7282e60b8c0d" />
 
 ## Source Code
-      1.[**Data Ingestion**](data_ingestion.py)
+
+ 
+  [**Data Ingestion**](data_ingestion.py)   - read pdf file, create vector embeddings and stored into qdrant vec db
+  
+  [**Data Retrieval**](DocumentRetrival.py) - Retrieve matches from the vector DB
+  
+    
+  [**Planning Agent**](PlanningAgent.py)    - The agent collects the user's request.
+  
+  [**Planning Agent**](SafetyAgent.py)      - The agent finds the facts (RAG) and uses the AI (LLM) to answer.
+  
+  
+  
+  
