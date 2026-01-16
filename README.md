@@ -126,7 +126,7 @@ Agent Response :
     
   [**Planning Agent**](PlanningAgent.py)    - The agent collects the user's request.
   
-  [**Planning Agent**](SafetyAgent.py)      - The agent finds the facts (RAG) and uses the AI (LLM) to answer.
+  [**Safety Agent**](SafetyAgent.py)        - The agent finds the facts (RAG) and uses the AI (LLM) to answer.
   
   
   
